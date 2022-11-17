@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		824E534321E17EAF9CF68A55 /* Pods_mottled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFCC36F0D68D58442AC83A9 /* Pods_mottled.framework */; };
-		B50D5B8429269EC0002F18BC /* mottledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D5B8329269EC0002F18BC /* mottledApp.swift */; };
+		B50D5B8429269EC0002F18BC /* MottledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D5B8329269EC0002F18BC /* MottledApp.swift */; };
 		B50D5B8629269EC0002F18BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D5B8529269EC0002F18BC /* ContentView.swift */; };
 		B50D5B8829269EC1002F18BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50D5B8729269EC1002F18BC /* Assets.xcassets */; };
 		B50D5B8B29269EC1002F18BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50D5B8A29269EC1002F18BC /* Preview Assets.xcassets */; };
@@ -18,8 +18,8 @@
 /* Begin PBXFileReference section */
 		4F88299966B5F63F3C792EAA /* Pods-mottled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mottled.release.xcconfig"; path = "Target Support Files/Pods-mottled/Pods-mottled.release.xcconfig"; sourceTree = "<group>"; };
 		7EFCC36F0D68D58442AC83A9 /* Pods_mottled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mottled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B50D5B8029269EC0002F18BC /* mottled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mottled.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B50D5B8329269EC0002F18BC /* mottledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mottledApp.swift; sourceTree = "<group>"; };
+		B50D5B8029269EC0002F18BC /* Mottled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mottled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50D5B8329269EC0002F18BC /* MottledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MottledApp.swift; sourceTree = "<group>"; };
 		B50D5B8529269EC0002F18BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B50D5B8729269EC1002F18BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50D5B8A29269EC1002F18BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				B5A4577B2926A13E008694AE /* .swiftlint.yml */,
-				B50D5B8229269EC0002F18BC /* mottled */,
+				B50D5B8229269EC0002F18BC /* Mottled */,
 				B50D5B8129269EC0002F18BC /* Products */,
 				90CA98767E51362FB9D88F19 /* Pods */,
 				D6202AABC5381ACAD01D859B /* Frameworks */,
@@ -62,20 +62,20 @@
 		B50D5B8129269EC0002F18BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B50D5B8029269EC0002F18BC /* mottled.app */,
+				B50D5B8029269EC0002F18BC /* Mottled.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B50D5B8229269EC0002F18BC /* mottled */ = {
+		B50D5B8229269EC0002F18BC /* Mottled */ = {
 			isa = PBXGroup;
 			children = (
-				B50D5B8329269EC0002F18BC /* mottledApp.swift */,
+				B50D5B8329269EC0002F18BC /* MottledApp.swift */,
 				B50D5B8529269EC0002F18BC /* ContentView.swift */,
 				B50D5B8729269EC1002F18BC /* Assets.xcassets */,
 				B50D5B8929269EC1002F18BC /* Preview Content */,
 			);
-			path = mottled;
+			path = Mottled;
 			sourceTree = "<group>";
 		};
 		B50D5B8929269EC1002F18BC /* Preview Content */ = {
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B50D5B7F29269EC0002F18BC /* mottled */ = {
+		B50D5B7F29269EC0002F18BC /* Mottled */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B50D5B8E29269EC1002F18BC /* Build configuration list for PBXNativeTarget "mottled" */;
+			buildConfigurationList = B50D5B8E29269EC1002F18BC /* Build configuration list for PBXNativeTarget "Mottled" */;
 			buildPhases = (
 				CE9EC03A98BBEFB76B35426E /* [CP] Check Pods Manifest.lock */,
 				B591DB3A2926A05800951859 /* SwiftLint Script */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = mottled;
+			name = Mottled;
 			productName = mottled;
-			productReference = B50D5B8029269EC0002F18BC /* mottled.app */;
+			productReference = B50D5B8029269EC0002F18BC /* Mottled.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B50D5B7B29269EC0002F18BC /* Build configuration list for PBXProject "mottled" */;
+			buildConfigurationList = B50D5B7B29269EC0002F18BC /* Build configuration list for PBXProject "Mottled" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B50D5B7F29269EC0002F18BC /* mottled */,
+				B50D5B7F29269EC0002F18BC /* Mottled */,
 			);
 		};
 /* End PBXProject section */
@@ -212,7 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50D5B8629269EC0002F18BC /* ContentView.swift in Sources */,
-				B50D5B8429269EC0002F18BC /* mottledApp.swift in Sources */,
+				B50D5B8429269EC0002F18BC /* MottledApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B50D5B7B29269EC0002F18BC /* Build configuration list for PBXProject "mottled" */ = {
+		B50D5B7B29269EC0002F18BC /* Build configuration list for PBXProject "Mottled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B50D5B8C29269EC1002F18BC /* Debug */,
@@ -405,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B50D5B8E29269EC1002F18BC /* Build configuration list for PBXNativeTarget "mottled" */ = {
+		B50D5B8E29269EC1002F18BC /* Build configuration list for PBXNativeTarget "Mottled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B50D5B8F29269EC1002F18BC /* Debug */,

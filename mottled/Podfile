@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
   platform :ios, '9.0'
 
-target 'mottled' do
+target 'Mottled' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for mottled
+  # Pods for Mottled
   pod 'SwiftLint'
 
 post_install do |installer|

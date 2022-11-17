@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  mottled
+//  Mottled
 //
 //  Created by 한빈 on 2022/11/18.
 //
